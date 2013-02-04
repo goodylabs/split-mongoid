@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Split::Mongoid::VERSION
   gem.authors       = ["Chris Winslett"]
   gem.email         = ["chris@mongohq.com"]
-  gem.description   = %q{TODO: A Mongoid Persistence Layer for Split}
-  gem.summary       = %q{TODO: Use Mongoid for your persistence layer when working with split}
+  gem.description   = %q{A Mongoid Persistence Layer for Split}
+  gem.summary       = %q{Use Mongoid for your persistence layer when working with split}
   gem.homepage      = "http://github.com/mongohq/split-mongoid"
 
   gem.files         = `git ls-files`.split($/)
