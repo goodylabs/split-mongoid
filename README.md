@@ -33,7 +33,7 @@ Then, run your a/b tests:
 ```ruby
 user = User.new
 
-user.ab_tests("favorite_superhero", "Superman", "Spiderman") do |hero|
+user.ab_test("favorite_superhero", "Superman", "Spiderman") do |hero|
   puts hero
 end
 ```
